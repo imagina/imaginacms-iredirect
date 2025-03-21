@@ -3,6 +3,7 @@
 use Illuminate\Support\Str;
 use Modules\Iredirect\Entities\Redirect as Redirect;
 
+//TODO: las Rutas de API estan entrando aqui y no deberian
 try {
   $uri = Request::path();
   $decodedUri = urldecode($uri);
